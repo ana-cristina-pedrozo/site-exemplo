@@ -1,0 +1,147 @@
+body {
+    margin: 0px;
+}
+
+
+h1 {
+    font-family: OpenSans, Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #8B4513;
+    padding: 30px;
+}
+
+h2 {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    background-color: #8B4513;
+    color: #FFDEAD;
+    padding: 20px;
+    clear: both;
+}
+
+p {
+    font-family: OpenSans, Arial, sans-serif;
+    font-size: 20px;
+    color: #8B4513;
+    line-height: 30px;
+    margin-left: 20px;
+}
+
+figcaption {
+    font-family: OpenSans, Arial, sans-serif;
+    font-size: 15px;
+    color: #8B4513;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+nav a {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 20px;
+    background-color: #8B4513;
+    color: #FFDEAD;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+nav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 20px 0px 0px 0px;
+}
+
+#logo-home {
+    padding: 100px 0px 0px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#direita {
+    float: right;
+}
+
+.esquerda {
+    float: left;
+    margin-right: 20px;
+}
+
+footer {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: #8B4513;
+    color: #FFDEAD;
+    padding: 20px;
+}
+
+.redes {
+    display: inline-block;
+   
+}
+
+.centro {
+    text-align: center;
+}
+
+.botao-volta {
+    text-align: right;
+    margin: 10px;
+
+}
+
+
+
+/*ESTILOS GALERIA*/
+
+.galeria {
+    display: inline-block;
+    margin: 10px;
+}
+
+
+/* ESTILOS DA TABELA */
+
+table {
+    border-width: 4px;
+    border-style: solid;
+    border-color: #8B4513;
+    background-color: #8B4513;
+    margin: auto;
+    border-spacing: 0px;
+    margin-bottom: 30px;
+
+}
+
+th, td {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 30px;
+    color: #FFDEAD;
+    border: 1px solid #FFDEAD;
+    padding: 10px;
+    text-align: center;
+}
+
+td {
+    font-size: 20px;
+}
+
+.mes {
+    color: #8B4513;
+    background-color: #FFDEAD;
+    border: 1px solid #8B4513;
+}
+

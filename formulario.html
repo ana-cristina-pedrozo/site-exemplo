@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<html>
+
+<head>
+	<title>Cadastro</title>
+	<link rel="icon" type="text/css" href="icone.png">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilo-chocolate.css">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+	<div>
+		<a href="index-chocolate.html"><img src="logo-chocolate.png" width="50%" alt="Logotipo da Empresa"></a>
+	</div>
+
+
+	<h2>Faça sua Inscrição</h2>
+
+
+	<form action="" method="post">
+
+		<!--action = nome do arquivo de banco de dados
+		method = forma de envio / get (enviado como anexo) post (enviado como encapsulado)-->
+		<fieldset>
+			<legend>Identificação do Usuário</legend>
+
+			<p>Nome: <input type="text" name="" size="50" placeholder="Nome Completo"></p>
+			<p>Senha: <input type="password" name="" maxlength="8" size="10"></p>
+			<p>E-mail: <input type="email" name="" size="50"></p>
+			<p>Data de Nacimento: <input type="date" name=""></p>
+		</fieldset>
+
+
+		<fieldset>
+			<legend>Genêro</legend>
+			<p>Masculino <input type="radio" name="Sex"></p>
+			<p>Feminino <input type="radio" name="Sex"></p>
+			<p>Outro <input type="text" size="50" name=""> </p>
+		</fieldset>
+
+		<fieldset>
+			<legend>Endereço do Usuário</legend>
+
+			<p>Rua: <input type="text" name="" size="30">
+			Número: <input type="number" name="" size="5" min="0"></p>
+
+			<p>Estado:
+			<select>
+				<option>Minas Gerais</option>
+				<option>Rio de Janeiro</option>
+				<option>Paraná</option>
+				<option>Santa Catarina</option>
+				<option>São Paulo</option>
+				<option>Tocantins</option>
+			</select>
+
+
+			Cidade: <input type="" name="" list="cidades">
+			<datalist id="cidades">
+				<option value="Araraquara"></option>
+				<option value="Barretos"></option>
+				<option value="Caraguatatuba"></option>
+				<option value="Ribeirão Preto"></option>
+				<option value="São Caetano"></option>
+				<option value="São Paulo"></option>
+			</datalist>
+			</p>
+
+		</fieldset>
+
+		<fieldset>
+			<legend>Mensagem do Usuário</legend>
+			<textarea cols="80" rows="10" placeholder="Deixe sua Mensagem"></textarea>
+		</fieldset>
+
+		<fieldset>
+			<legend>Inscrição</legend>
+
+			<p><input type="checkbox" name=""> Academia do Chocolate</p>
+
+			<p><input type="checkbox" name=""> Brigadeiro Gourmet</p>
+
+			<p><input type="checkbox" name=""> Chocolateria Tradicional</p>
+
+			<p><input type="checkbox" name=""> Bombons Gourmet e com Castanhas</p>
+
+			<p><input type="checkbox" name=""> Da Amêndoa a Barra</p>
+
+			<p><input type="checkbox" name=""> Chocolates Bean to Bar</p>
+
+			<p><input type="checkbox" name=""> Empreender com Chocolate</p>
+		</fieldset>
+
+	<div id="botao">	
+		<input type="reset" class="botao" value="Limpar" name="">
+		<input type="submit" class="botao" value="Enviar" name="">
+	</div>
+
+	<!--
+	<div id="botao">
+		<img src="formulario/botao-limpar.png" class="botao-imagem">
+
+		<img src="formulario/botao-enviar.png" class="botao-imagem">
+	</div>
+	-->
+
+
+	</form>
+
+
+	<footer>
+		&copy; Chocolates Dreams - 2020
+	</footer>
+
+</body>
+</html>
